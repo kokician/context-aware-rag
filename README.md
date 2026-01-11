@@ -1,4 +1,13 @@
 Context-Window-Aware Retrieval-Augmented Generation (RAG)
+
+Running the Demo
+CLI
+python app.py
+
+Web UI
+pnpm install
+pnpm run dev
+
 Overview
 
 This project implements a context-window-aware Retrieval-Augmented Generation (RAG) system that explicitly assembles an LLM context under hard token constraints.
@@ -148,13 +157,6 @@ Tool outputs are truncated after retrieval is preserved
 
 Final context reflects prioritised assembly rather than raw concatenation
 
-Running the Demo
-CLI
-python app.py
-
-Web UI (if applicable)
-pnpm install
-pnpm run dev
 
 Design Rationale
 
