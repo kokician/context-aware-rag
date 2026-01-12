@@ -129,7 +129,6 @@ export function assembleContext(
   retrievalSection.content = retrievalResult.text;
   retrievalSection.details = retrievalResult.details;
 
-  /* Explainable token accounting */
   const totalRetrievalTokens = retrievalResult.details.reduce(
     (sum, doc) => sum + doc.tokens,
     0
